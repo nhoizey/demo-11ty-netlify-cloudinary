@@ -1,0 +1,23 @@
+{
+  "name": "demo-11ty-netlify-cloudinary",
+  "version": "1.0.0",
+  "description": "A demonstration of responsive images in simple Markdown with Eleventy, Netlify and Cloudinary",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhoizey/demo-11ty-netlify-cloudinary.git"
+  },
+  "author": "Nicolas Hoizey <nicolas@hoizey.com> (https://nicolas-hoizey.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhoizey/demo-11ty-netlify-cloudinary/issues"
+  },
+  "homepage": "https://github.com/nhoizey/demo-11ty-netlify-cloudinary#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "~0.11.1",
+    "eleventy-plugin-images-responsiver": "~1.8.2"
+  }
+}
