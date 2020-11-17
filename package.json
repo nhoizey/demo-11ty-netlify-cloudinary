@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A demonstration of responsive images in simple Markdown with Eleventy, Netlify and Cloudinary",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
+    "start": "NODE_ENV=development eleventy --serve",
+    "build": "NODE_ENV=production eleventy"
   },
   "repository": {
     "type": "git",
