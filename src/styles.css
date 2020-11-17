@@ -5,7 +5,16 @@
 }
 
 body {
-  background-color: #ccc;
+  margin: 0;
+  background-color: cadetblue;
+}
+
+main {
+  background-color: white;
+  width: 90vw;
+  max-width: 42rem;
+  margin: 1rem auto;
+  padding: 1rem;
 }
 
 img {
@@ -13,15 +22,17 @@ img {
   height: auto;
 }
 
-article {
-  width: 90vw;
-  max-width: 40em;
-  margin: 0 auto;
+.logo {
+  max-width: 50%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.logo {
-  max-width: 20%;
-  float: right;
-  margin-bottom: 1em;
-  margin-left: 1em;
+@media (min-width: 30rem) {
+  .logo {
+    max-width: 25%;
+    float: right;
+    margin-top: 0;
+    margin-left: 1rem;
+  }
 }
