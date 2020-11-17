@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+article {
+  width: 90vw;
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+.logo {
+  max-width: 20%;
+  float: right;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
