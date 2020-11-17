@@ -1,6 +1,7 @@
 ---
 layout: default.njk
+title: Welcome to this demo!
 ---
 
-Welcome to this demo!
+
 
