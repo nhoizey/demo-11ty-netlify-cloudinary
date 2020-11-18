@@ -27,6 +27,6 @@ Any other image resizing tool (SaaS or not) could be used with adapted configura
 
 The site is built and hosted by [Netlify](https://netlify.com/).
 
-The source code is managed on GitHub, and any push to the `main` branch triggers a build and deploy on Netlify.
+The source code is managed [on GitHub](https://github.com/nhoizey/demo-11ty-netlify-cloudinary), and any push to the `main` branch triggers a build and deploy on Netlify.
 
 Netlify is also convenient here to [proxy requests](https://docs.netlify.com/routing/redirects/rewrites-proxies/#proxy-to-another-service) to Cloudinary, so that a single domain is "seen" by the browser, which is better for performance. Thanks [Phil Hawksworth](https://twitter.com/philhawksworth/status/1328340868726726656) and [Tim Kadlec](https://timkadlec.com/remembers/2020-11-17-netlify-proxy-requests/) for this nice trick! 👍
