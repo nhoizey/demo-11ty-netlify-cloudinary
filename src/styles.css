@@ -36,3 +36,7 @@ img {
     margin-left: 1rem;
   }
 }
+
+pre {
+  overflow-x: scroll;
+}
