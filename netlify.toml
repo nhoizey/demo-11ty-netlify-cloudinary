@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/responsive/:width/*"
   to = "https://res.cloudinary.com/nho/image/fetch/q_auto,f_auto,w_:width,c_limit/https://demo-11ty-netlify-cloudinary.netlify.app/:splat"
-  # status = 200
+  status = 200
