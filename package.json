@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/nhoizey/demo-11ty-netlify-cloudinary#readme",
   "devDependencies": {
-    "@11ty/eleventy": "~0.11.1",
+    "@11ty/eleventy": "^0.11.1",
     "eleventy-plugin-images-responsiver": "~1.8.2",
-    "image-size": "~0.9.3",
+    "image-size": "^0.9.7",
     "markdown-it-attrs": "~3.0.3"
   }
 }
